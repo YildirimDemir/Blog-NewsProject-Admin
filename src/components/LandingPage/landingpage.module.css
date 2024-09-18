@@ -1,0 +1,58 @@
+.landingPageArea{
+    width: 100%;
+    min-height: calc(100vh - 120px);
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dataContent{
+    width: 100%;
+    min-height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.dataBox{
+    width: 180px;
+    height: 180px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    /* background: linear-gradient(135deg, #FF8F00, #FFDB00); */
+    /* border: 4px solid var(--white); */
+    background-color: var(--white);
+    border: 4px solid var(--orange);
+    margin: 10px;
+    position: relative;
+}
+
+.dataBox h3{
+    font-size: 2.3rem;
+    font-family: monospace;
+    font-weight: 600;
+}
+
+.dataBox p{
+    font-size: 1.3rem;
+    font-family: monospace;
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+.boxIcon{
+    position: absolute;
+    right: auto;
+    left: auto;
+    top: auto;
+    bottom: auto;
+    color: #000;
+    opacity: .08;
+    font-size: 7rem;
+}

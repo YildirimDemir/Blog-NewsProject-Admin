@@ -1,0 +1,83 @@
+.allPostsPage{
+    min-height: calc(100vh - 120px);
+    width: 100%;
+    padding: 15px;
+}
+
+.allPostsPage h1{
+    text-align: center;
+    font-size: 1.7rem;
+    font-family: monospace;
+}
+
+.allPosts{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.postBox{
+    width: 300px;
+    height: 600px;
+    border-radius: 8px;
+    border: 5px solid var(--orange);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px;
+}
+
+.postBox .postBoxImg{
+    height: 50%;
+    width: auto;
+    margin-bottom: 8px;
+}
+
+.postBoxImg img{
+    width: auto;
+    height: 100%;
+    border-radius: 3px;
+}
+
+.postBoxInfo {
+    margin-bottom: 10px;
+    height: auto;
+    padding: 8px;
+    width: 250px;
+    height: 160px;
+}
+
+.postBoxInfo span{
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #d66f00;
+}
+
+.postBoxInfo h3{
+    font-size: 1.1rem;
+}
+
+.postBoxInfo p{
+    margin-top: 5px;
+}
+
+.postBoxData {
+    display: flex;
+    width: 100px;
+    justify-content: space-around;
+}
+
+.postBoxData span{
+    font-size: 1.2rem;
+}
+
+.postBox button{
+    margin-top: 10px;
+    background-color: var(--orange);
+    font-size: 1.1rem;
+    padding: 5px 10px;
+    border-radius: 8px;
+}
